@@ -1,2 +1,1 @@
-# durgaprasadbokka
-My Portifolio Website
+# My Portifolio Website
