@@ -10,7 +10,7 @@
 * Natural Language Processing 
 
 
-👉[My Online Portfolio](https://prasad-7dp.github.io/durgaprasadbokka/)
+👉[My Online Portfolio](https://bokkadurgaprasad.github.io/portfolio/)
 
 
 <h3 align="left">Languages and Tools:</h3>
