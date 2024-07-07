@@ -101,7 +101,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .slide {
