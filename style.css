@@ -299,16 +299,18 @@ section {
 
 .layer h5 {
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .layer p {
     color: black;
-    font-size: 1rem;
+    font-size: 13px;
     line-height: 1.8;
     font-weight: bold;
+    text-align: center;
 }
 
 .layer i {
@@ -561,5 +563,75 @@ form button:hover {
     .about-me{
         font-size: 0.8rem;
         white-space: normal;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("mobile_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+    .home-text h1 {
+        font-size: 3rem;
+    }
+
+    .home-text p {
+        font-size: 1rem;
+        color: white;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects-content .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-content .row img {
+        width: 100%;
+        height: auto;
+    }
+
+    .layer {
+        width: 100%;
+        max-width: 470px;
+        height: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), #36deed);
+        position: absolute;
+        left: 1.3px;
+        bottom: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 5px;
+        transition: height 0.5s;
+    }
+
+    .layer h5, .layer p{
+        text-align: center;
+        margin: 10px 0;
+        font-size: 10px;
+        word-wrap: break-word;
+        width: 90%;
+    }
+    
+    .projects-content .row:hover .layer {
+        opacity: 1;
     }
 }
